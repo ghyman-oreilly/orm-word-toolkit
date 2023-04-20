@@ -41,7 +41,8 @@
 		   <button id="CustomButton30" label="Find Highlighted Text" size="large" imageMso="TextHighlightColorPicker" onAction="MiscUtilities.findHighlightedText" /> 
 		   <button id="CustomButton31" label="Simple Var List for Callouts" size="large" imageMso="BulletListDefault" onAction="MiscUtilities.simpleVarListForCallouts" screentip="Create a simple variable list, designed to be converted to a callout list in HTML format, from a series of bulleted list items. The variable terms (dt) will be created for you and are consecutive numbers." /> 
 		   <button id="CustomButton32" label="Check Heading Order" size="large" imageMso="OutlineGroup" onAction="MiscUtilities.CheckHeadingOrder" /> 
-		   <button id="CustomButton33" label="Convert Fields to Text" size="large" imageMso="FieldCodes" onAction="MiscUtilities.ConvertAllFieldsToTextInDoc" /> 
+		   <button id="CustomButton33" label="Convert Fields to Text" size="large" imageMso="FieldCodes" onAction="MiscUtilities.ConvertAllFieldsToTextInDoc" />
+			<button id="CustomButton34" label="Convert code table to code listing" size="large" imageMso="TableInsert" onAction="MiscUtilities.convertSelectedTableToCode" screentip="Select a single-cell table containing code, then run this script to convert the table to a standard code listing. Note: bold or italic style will be stripped, so use caution."/>
          </group > 
        </tab> 
      </tabs> 

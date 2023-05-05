@@ -4,7 +4,8 @@
        <tab id="CustomTab1" label="ORM: Apply Styles"> 
          <group id="CustomGroup1" label="Paragraph Styles"> 
            <button id="CustomButton1" label="Body Text" size="large" imageMso="ParagraphMarks" onAction="ApplyStyles.ApplyBody" /> 
-		   <button id="CustomButton2" label="Var List (Terms and Vars)" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.applyVarListTermsandVars" screentip="Create a complete simple variable list from a series of bulleted list items." /> 
+		   <button id="CustomButton2" label="Var List from Paragraphs" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.applyVarListTermsandVars" screentip="Create a complete simple variable list from a series of unindented and indented paragraphs." /> 
+		   <button id="CustomButton35" label="Var List from List" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.varlistFromDelimiter" screentip="Create a complete simple variable list from a bulleted list containing specific delimiter (e.g., colon and space)." />
 		   <button id="CustomButton3" label="List Variable Term" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.ApplyListVariableTerm" /> 
 		   <button id="CustomButton4" label="List Variable" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.ApplyListVariable" /> 
 		   <button id="CustomButton5" label="List Bullet" size="large" imageMso="BulletListDefault" onAction="ApplyStyles.ApplyListBullet" /> 
